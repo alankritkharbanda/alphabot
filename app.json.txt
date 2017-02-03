@@ -1,0 +1,5 @@
+{
+  "name": "AlphaBot",
+  "description": "A rudimentry bot for wolfram alpha.",
+  "image": "heroku/java"
+}
