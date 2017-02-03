@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<queryresult success="true" error="false" numpods="9" datatypes="AdministrativeDivision,City,Country,Leader,People,WikipediaStats" timedout="" timedoutpods="" timing="4.926" parsetiming="0.242" parsetimedout="false" recalculate="" id="MSPa74211c8a8ca4cgb8353000001g1b48748bfd51b3" host="http://www4b.wolframalpha.com" server="61" related="http://www4b.wolframalpha.com/api/v2/relatedQueries.jsp?id=MSPa74221c8a8ca4cgb835300000247b8e7911g812gg&amp;redisFailed=true&amp;s=61" version="2.6">
+    <pod title="Input interpretation" scanner="Identity" id="Input" position="100" error="false" numsubpods="1">
+        <subpod title="">
+            <img src="http://www4b.wolframalpha.com/Calculate/MSP/MSP74231c8a8ca4cgb8353000004g96fd6g23i43gci?MSPStoreType=image/gif&amp;s=61" alt="Atal Bihari Vajpayee  (politician)" title="Atal Bihari Vajpayee  (politician)" width="213" height="18" />
+            <plaintext>Atal Bihari Vajpayee  (politician)</plaintext>
+        </subpod>
+    </pod>
+    <pod title="Basic information" scanner="Data" id="BasicInformation:PeopleData" position="200" error="false" numsubpods="1">
+        <subpod title="">
+            <img src="http://www4b.wolframalpha.com/Calculate/MSP/MSP74241c8a8ca4cgb83530000035fbf9a7aecad07e?MSPStoreType=image/gif&amp;s=61" alt="full name | Atal Bihari Vajpayee date of birth | Thursday, December 25, 1924 (age: 92 years) place of birth | Gwalior, Madhya Pradesh" title="full name | Atal Bihari Vajpayee date of birth | Thursday, December 25, 1924 (age: 92 years) place of birth | Gwalior, Madhya Pradesh" width="434" height="100" />
+            <plaintext>full name | Atal Bihari Vajpayee
+                date of birth | Thursday, December 25, 1924 (age: 92 years)
+                place of birth | Gwalior, Madhya Pradesh</plaintext>
+        </subpod>
+    </pod>
+    <pod title="Image" scanner="Data" id="Image:PeopleData" position="300" error="false" numsubpods="1">
+        <subpod title="">
+            <imagesource>http://en.wikipedia.org/wiki/File:Atal_Bihari_Vajpayee.jpg</imagesource>
+            <img src="http://www4b.wolframalpha.com/Calculate/MSP/MSP74251c8a8ca4cgb8353000005769i0dbbbhdb41i?MSPStoreType=image/gif&amp;s=61" alt="" title="" width="92" height="150" />
+            <plaintext></plaintext>
+        </subpod>
+    </pod>
+    <pod title="Leadership positions" scanner="Data" id="Position:LeaderData" position="400" error="false" numsubpods="1">
+        <subpod title="">
+            <img src="http://www4b.wolframalpha.com/Calculate/MSP/MSP74261c8a8ca4cgb8353000005ggcgg631171d6bi?MSPStoreType=image/gif&amp;s=61" alt="official position | Prime Minister | Prime Minister country | India | India start date | 16/05/1996 | 19/03/1998 end date | 01/06/1996 | 22/05/2004" title="official position | Prime Minister | Prime Minister country | India | India start date | 16/05/1996 | 19/03/1998 end date | 01/06/1996 | 22/05/2004" width="364" height="132" />
+            <plaintext>official position | Prime Minister | Prime Minister
+                country | India | India
+                start date | 16/05/1996 | 19/03/1998
+                end date | 01/06/1996 | 22/05/2004</plaintext>
+        </subpod>
+    </pod>
+    <pod title="Timeline" scanner="Data" id="Timeline:PeopleData" position="500" error="false" numsubpods="1">
+        <subpod title="">
+            <img src="http://www4b.wolframalpha.com/Calculate/MSP/MSP74271c8a8ca4cgb8353000005fh4e28420a8df76?MSPStoreType=image/gif&amp;s=61" alt="" title="" width="550" height="38" />
+            <plaintext></plaintext>
+        </subpod>
+    </pod>
+    <pod title="Notable facts" scanner="Data" id="NotableFacts:PeopleData" position="600" error="false" numsubpods="1">
+        <subpod title="">
+            <img src="http://www4b.wolframalpha.com/Calculate/MSP/MSP74281c8a8ca4cgb8353000006270f4ec260i8ih2?MSPStoreType=image/gif&amp;s=61" alt="Statesman and politician whose long parliamentary career included three terms as the Prime Minister of India Spent more than 40 years in parliament, and was elected a record nine times to the Lok Sabha Served 13 days as Prime Minister in 1996, then led a coalition government for six years beginning in 1998 Retired from active politics and as the Member of Parliament for Lucknow in 2009" title="Statesman and politician whose long parliamentary career included three terms as the Prime Minister of India Spent more than 40 years in parliament, and was elected a record nine times to the Lok Sabha Served 13 days as Prime Minister in 1996, then led a coalition government for six years beginning in 1998 Retired from active politics and as the Member of Parliament for Lucknow in 2009" width="540" height="163" />
+            <plaintext>Statesman and politician whose long parliamentary career included three terms as the Prime Minister of India
+                Spent more than 40 years in parliament, and was elected a record nine times to the Lok Sabha
+                Served 13 days as Prime Minister in 1996, then led a coalition government for six years beginning in 1998
+                Retired from active politics and as the Member of Parliament for Lucknow in 2009</plaintext>
+        </subpod>
+    </pod>
+    <pod title="Familial relationships" scanner="Data" id="FamilialRelationships:PeopleData" position="700" error="false" numsubpods="2">
+        <subpod title="Parents">
+            <img src="http://www4b.wolframalpha.com/Calculate/MSP/MSP74291c8a8ca4cgb8353000003idc7i0ic8i5hach?MSPStoreType=image/gif&amp;s=61" alt="Krishna Devi  |  Krishna Bihari Vajpayee" title="Krishna Devi  |  Krishna Bihari Vajpayee" width="263" height="18" />
+            <plaintext>Krishna Devi  |  Krishna Bihari Vajpayee</plaintext>
+        </subpod>
+        <subpod title="Sibling">
+            <img src="http://www4b.wolframalpha.com/Calculate/MSP/MSP74301c8a8ca4cgb8353000004i8ga24ge185fb50?MSPStoreType=image/gif&amp;s=61" alt="Prem" title="Prem" width="34" height="18" />
+            <plaintext>Prem</plaintext>
+        </subpod>
+    </pod>
+    <pod title="Wikipedia summary" scanner="Data" id="WikipediaSummary:PeopleData" position="800" error="false" numsubpods="1">
+        <subpod title="">
+            <img src="http://www4b.wolframalpha.com/Calculate/MSP/MSP74311c8a8ca4cgb8353000001d29g5b6g8f732ci?MSPStoreType=image/gif&amp;s=61" alt="" title="" width="528" height="77" />
+            <plaintext></plaintext>
+        </subpod>
+        <infos count="1">
+            <info>
+                <link url="http://en.wikipedia.org/wiki?curid=101730" text="Full entry" />
+            </info>
+        </infos>
+    </pod>
+    <pod title="Wikipedia page hits history" scanner="Data" id="PopularityPod:WikipediaStatsData" position="900" error="false" numsubpods="1">
+        <subpod title="">
+            <img src="http://www4b.wolframalpha.com/Calculate/MSP/MSP74321c8a8ca4cgb8353000003266hhh7692998ed?MSPStoreType=image/gif&amp;s=61" alt="" title="" width="546" height="165" />
+            <plaintext></plaintext>
+        </subpod>
+        <states count="1">
+            <state name="Log scale" input="PopularityPod:WikipediaStatsData__Log scale" />
+        </states>
+    </pod>
+    <sources count="2">
+        <source url="http://www.wolframalpha.com/sources/LeaderDataSourceInformationNotes.html" text="Leader data" />
+        <source url="http://www.wolframalpha.com/sources/PeopleDataSourceInformationNotes.html" text="People data" />
+    </sources>
+</queryresult>
