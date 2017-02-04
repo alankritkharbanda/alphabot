@@ -1,9 +1,3 @@
-0:0:0:0:0:0:0:1 - - [04/Feb/2017:00:58:03 +0530] "GET /BotService/QueryResponseServlet?query=who%20is%20manmohan%20singh HTTP/1.1" 200 929 http-bio-8080-exec-1 6013
-0:0:0:0:0:0:0:1 - - [04/Feb/2017:00:58:03 +0530] "GET /favicon.ico HTTP/1.1" 404 - http-bio-8080-exec-2 0
-0:0:0:0:0:0:0:1 - - [04/Feb/2017:01:00:02 +0530] "GET /BotService/QueryResponseServlet?query=what%20is%20pi HTTP/1.1" 200 1382 http-bio-8080-exec-4 3018
-0:0:0:0:0:0:0:1 - - [04/Feb/2017:01:05:16 +0530] "GET /BotService/QueryResponseServlet?query=what%20is%20pi HTTP/1.1" 200 1382 http-bio-8080-exec-5 272111
-0:0:0:0:0:0:0:1 - - [04/Feb/2017:01:24:12 +0530] "GET /BotService/QueryResponseServlet?query=what%20is%20the%20meaning%20of%20life HTTP/1.1" 200 180 http-bio-8080-exec-7 1563
-0:0:0:0:0:0:0:1 - - [04/Feb/2017:01:25:09 +0530] "GET /BotService/QueryResponseServlet?query=what%20is%20the%20name%20of%20my%20first%20child HTTP/1.1" 200 92 http-bio-8080-exec-8 4694
-0:0:0:0:0:0:0:1 - - [04/Feb/2017:01:25:44 +0530] "GET /BotService/QueryResponseServlet?query=who%20killed%20jesus%20christ HTTP/1.1" 200 348 http-bio-8080-exec-9 2140
-0:0:0:0:0:0:0:1 - - [04/Feb/2017:01:26:24 +0530] "GET /BotService/QueryResponseServlet?query=who%20killed%20mahatma%20gandhi HTTP/1.1" 200 467 http-bio-8080-exec-10 4241
-0:0:0:0:0:0:0:1 - - [04/Feb/2017:01:27:21 +0530] "GET /BotService/QueryResponseServlet?query=what%20was%20hansie%20cronje%20wearing%20when%20plane%20crashed HTTP/1.1" 200 107 http-bio-8080-exec-10 4337
+0:0:0:0:0:0:0:1 - - [04/Feb/2017:03:23:29 +0530] "GET /BotService/QueryResponseServlet?query=who%20killed%20mahatma%20gandhi HTTP/1.1" 200 467 http-bio-8080-exec-1 4846
+0:0:0:0:0:0:0:1 - - [04/Feb/2017:03:24:01 +0530] "GET /BotService/QueryResponseServlet?query=who%20is%20bill%20clinton HTTP/1.1" 200 1839 http-bio-8080-exec-3 6267
+0:0:0:0:0:0:0:1 - - [04/Feb/2017:03:24:21 +0530] "GET /BotService/QueryResponseServlet?query=when%20was%20saddam%20killed HTTP/1.1" 200 711 http-bio-8080-exec-5 3646
