@@ -57,7 +57,7 @@
                 <artifactId>heroku-maven-plugin</artifactId>
                 <version>1.1.3</version>
                 <configuration>
-                    <appName>botservice</appName>
+                    <appName>alphabot</appName>
                 </configuration>
             </plugin>
         </plugins>
