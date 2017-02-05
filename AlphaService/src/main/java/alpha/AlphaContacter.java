@@ -16,7 +16,7 @@ public class AlphaContacter {
         String urlString = "http://api.wolframalpha.com/v2/query?input=" + URLEncoder.encode(query) + "&appid=" + wolframAlphaKey;
         URL url = new URL(urlString) ;
         HttpURLConnection httpURLConnection = (HttpURLConnection) url.openConnection();
-        String xmlResponse = IOUtils.toString(httpURLConnection.getInputStream());
+        String xmlResponse = IOUtils.toString(httpURLConnection.getInputStream(), "UTF-8").trim();
         return xmlResponse;
     }
 

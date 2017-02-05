@@ -1,2 +1,0 @@
-0:0:0:0:0:0:0:1 - - [04/Feb/2017:07:08:29 +0530] "GET /BotService/QueryResponseServlet?query=who%20is%20putin HTTP/1.1" 200 1373 http-bio-8080-exec-1 5578
-0:0:0:0:0:0:0:1 - - [04/Feb/2017:07:08:33 +0530] "GET /BotService/QueryResponseServlet?query=%D0%BA%D1%82%D0%BE%20%D0%BF%D1%83%D1%82%D0%B8%D0%BD HTTP/1.1" 200 75 http-bio-8080-exec-3 3256

@@ -11,16 +11,33 @@ import org.w3c.dom.Node;
 
 import java.io.StringBufferInputStream;
 import java.util.ArrayList;
+import java.util.logging.Logger;
 
 public class QueryResponseBuilder {
+    private static final Logger logger = Logger.getLogger(QueryResponseBuilder.class.getName());
     public static String getResponseForQuery (String query) {
+        try {
+            String xmlResponse = AlphaContacter.fetchResult(query);
+            return new QueryResponse(query,buildResponseFromXML(xmlResponse)).toString();
+        } catch (Exception e) {
+            logger.info("Invalid query : " + query);
+        }
+        return new QueryResponse(query, buildFailureResponse(query)).toString();
+    }
+
+    public static String getResponseForQueryAsString (String query) {
         try {
             String xmlResponse = AlphaContacter.fetchResult(query);
             return buildResponseFromXML(xmlResponse);
         } catch (Exception e) {
-            e.printStackTrace();
+            logger.info("Invalid query : " + query);
         }
         return buildFailureResponse(query);
+    }
+
+    @Test
+    public void mathTest () {
+        System.out.println(getResponseForQuery("35*3"));
     }
     public static String buildResponseFromXML (String xml) throws Exception {
         StringBuilder stringBuilder = new StringBuilder();
@@ -28,9 +45,9 @@ public class QueryResponseBuilder {
         DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
         Document doc = dBuilder.parse(new StringBufferInputStream(xml));
         doc.getDocumentElement().normalize();
-        System.out.println("Root element :" + doc.getDocumentElement().getNodeName());
+        //System.out.println("Root element :" + doc.getDocumentElement().getNodeName());
         NodeList nList = doc.getElementsByTagName("pod");
-        System.out.println("List length is : " + nList.getLength());
+        //System.out.println("List length is : " + nList.getLength());
         ArrayList<String> arrayList = new ArrayList<String>();
         for (int temp = 0; temp < nList.getLength(); temp++) {
             Node nNode = nList.item(temp);
