@@ -22,6 +22,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
+        <module name="AlphaContacter" />
         <module name="AlphaService" />
         <module name="BotService" />
         <module name="TelegramBot" />
@@ -29,8 +30,10 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="AlphaBot" target="1.5" />
+      <module name="AlphaContacter" target="1.5" />
       <module name="AlphaService" target="1.7" />
       <module name="BotService" target="1.5" />
+      <module name="FBMessengerBot" target="1.5" />
       <module name="TelegramBot" target="1.5" />
     </bytecodeTargetLevel>
   </component>

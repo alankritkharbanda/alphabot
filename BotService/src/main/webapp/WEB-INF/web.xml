@@ -3,10 +3,10 @@
         "http://java.sun.com/dtd/web-app_2_3.dtd" >
 
 <web-app>
-   <!-- <listener>
-        <listener-class>telegramBotManager.ContextManager</listener-class>
-    </listener>-->
     <display-name>BOT API</display-name>
+    <listener>
+        <listener-class>servlets.ContextManager</listener-class>
+    </listener>
     <servlet>
         <servlet-name>QueryResponseServlet</servlet-name>
         <servlet-class>servlets.QueryResponseServlet</servlet-class>

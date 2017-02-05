@@ -12,8 +12,9 @@
         <module>AlphaService</module>
         <module>BotService</module>
         <module>TelegramBot</module>
+        <module>AlphaContacter</module>
+        <module>FBMessengerBot</module>
     </modules>
     <dependencies>
-
     </dependencies>
 </project>
