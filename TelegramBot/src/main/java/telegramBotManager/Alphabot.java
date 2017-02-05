@@ -15,6 +15,7 @@ public class Alphabot extends TelegramLongPollingBot {
         if (update.hasMessage() && update.getMessage().hasText()) {
             String messageText ;
             String messageReceived = update.getMessage().getText();
+            System.out.println(messageReceived);
             if (update.getMessage().isCommand()) {
                 if (messageReceived.contains("creator")) {
                     messageText = "It is I, Ser Alan, who created this bot.";

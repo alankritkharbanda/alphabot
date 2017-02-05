@@ -7,8 +7,8 @@ import utils.ObjectToJSON;
  * Created by Alankrit on 04-Feb-17.
  */
 public class QueryResponse {
-    String query ;
-    String response ;
+    private String query ;
+    private String response ;
 
     public QueryResponse(String query, String response) {
         this.query = query;
