@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/AlphaBot.iml" filepath="$PROJECT_DIR$/AlphaBot.iml" />
       <module fileurl="file://$PROJECT_DIR$/AlphaContacter/AlphaContacter.iml" filepath="$PROJECT_DIR$/AlphaContacter/AlphaContacter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AlphaContacter/AlphaContacter.iml" filepath="$PROJECT_DIR$/AlphaContacter/AlphaContacter.iml" />
       <module fileurl="file://$PROJECT_DIR$/AlphaService/AlphaService.iml" filepath="$PROJECT_DIR$/AlphaService/AlphaService.iml" />
       <module fileurl="file://$PROJECT_DIR$/BotService/BotService.iml" filepath="$PROJECT_DIR$/BotService/BotService.iml" />
       <module fileurl="file://$PROJECT_DIR$/TelegramBot/TelegramBot.iml" filepath="$PROJECT_DIR$/TelegramBot/TelegramBot.iml" />

@@ -14,7 +14,6 @@ public class TelegramDriver  implements ServletContextListener {
         ApiContextInitializer.init();
         System.out.println("Init");
         TelegramBotsApi botsApi = new TelegramBotsApi();
-
         try {
             botsApi.registerBot(new Alphabot());
         } catch (TelegramApiException e) {
